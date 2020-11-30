@@ -1,0 +1,30 @@
+{
+  "name": "nodeserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "formidable": "^1.2.2",
+    "fs": "^0.0.1-security",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "js-md5": "^0.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.9.1",
+    "multiparty": "^4.2.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "axios": "^0.20.0",
+    "nodemon": "^2.0.4"
+  },
+  "pkg": {
+    "assets": "views/**/*"
+  }
+}
